@@ -1,0 +1,30 @@
+body {
+   font-family: sans-serif;
+   background-color: lightblue;
+   margin-left: 20px;
+}
+.item{
+  height: 200px;
+}
+.image{
+border-width: medium;;
+border-color: grey;
+height: 200px;
+}
+#image-one{
+border-color: red;
+}
+.row td{
+  background-color: #126;
+}
+a:link {color: #369;}
+a:visited {color: #369;}
+a:hover {text-decoration: none;}
+a:active {color:blue;}
+
+.block:before{
+content:'<';
+}
+.block:after{
+content:attr(data-count);
+}
